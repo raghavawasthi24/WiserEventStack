@@ -1,19 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { inputfields } from "../../lib/constant/login";
 
 export default function Login() {
-  const inputfields = [
-    {
-      type: "text",
-      label: "Email ",
-      placeholder: "abc@work.com",
-    },
-    {
-      type: "text",
-      label: "Password ",
-      placeholder: "Enter Password",
-    },
-  ];
   return (
     <section className="w-screen h-screen overflow-hidden flex">
       <img
