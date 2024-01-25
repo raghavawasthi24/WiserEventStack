@@ -5,7 +5,7 @@ import CameraSection from './components/CameraSection'
 
 export default function Home() {
   return (
-    <div>
+    <div className='px-4 grid gap-6'>
       <Navbar/>
       <EventDetails/>
       <CameraSection/>
