@@ -1,5 +1,5 @@
 import React from 'react'
-import { cameras } from '../../../lib/constant';
+import { cameras } from '../../../lib/constant/home';
 
 export default function CameraSection() {
   
@@ -10,7 +10,7 @@ export default function CameraSection() {
         <p className='text-muted'>Finalise current event’s camera setup & get started</p>
       </div>
 
-      <div className="flex gap-4 flex-wrap">
+      <div className="flex gap-4 flex-wrap sm:justify-start justify-center">
         {cameras.map((camera) => {
           return camera.active ? (
             <div className="w-fit text-center font-semibold">
